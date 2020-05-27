@@ -1,0 +1,31 @@
+{
+  "definitions": {
+    "conv": {
+      "kind": "service"
+    },
+    "conv.CAPSet": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "Mandt": {
+          "key": true,
+          "type": "cds.String",
+          "length": 3
+        },
+        "Campo1": {
+          "key": true,
+          "type": "cds.String",
+          "length": 10
+        },
+        "Campo2": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "Campo3": {
+          "type": "cds.String",
+          "length": 40
+        }
+      }
+    }
+  }
+}
